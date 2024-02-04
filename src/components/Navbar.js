@@ -67,7 +67,7 @@ const Navbar = ()=>{
                                 </Link>
                             </div>
                         </li>
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                             <Link
                                 className="nav-link dropdown-toggle"
                                 to="#"
@@ -82,8 +82,8 @@ const Navbar = ()=>{
                             <div
                                 className="dropdown-menu"
                                 aria-labelledby="navbarDropdown"
-                            >
-                                <div className="row" style={{width:"750px"}}>
+                            > */}
+                                {/* <div className="row" style={{width:"750px"}}>
                                     <div className=" col-md-2">
                                         <Link className="dropdown-item" to="#">
                                             ae
@@ -336,10 +336,10 @@ const Navbar = ()=>{
                                         <Link className="dropdown-item" to="#">
                                             za
                                         </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
+                                    </div> */}
+                                {/* </div> */}
+                            {/* </div> */}
+                        {/* </li> */}
                     </ul>
                 </div>
             </nav>
